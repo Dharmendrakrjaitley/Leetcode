@@ -29,7 +29,7 @@ class PeekingIterator implements Iterator<Integer> {
 	@Override
 	public Integer next() {
         return ls.get(i++);
-	   // return 0;
+	   
 	}
 	
 	@Override
