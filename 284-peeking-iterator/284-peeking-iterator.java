@@ -13,14 +13,13 @@ class PeekingIterator implements Iterator<Integer> {
         {
             ls.add(iterator.next());
         }
-	   // arr=new int[]{iterator};
+	   
         len=ls.size();
         System.out.println(len);
 	}
 	
     // Returns the next element in the iteration without advancing the iterator.
 	public Integer peek() {
-        //if(!ls.isEmpty())
         return ls.get(i);
      
 	}
@@ -35,7 +34,7 @@ class PeekingIterator implements Iterator<Integer> {
 	
 	@Override
 	public boolean hasNext() {
-        if(ls.isEmpty() || i>=len)
+        if(i>=len)
 	     return false;
         return true;
 	}
