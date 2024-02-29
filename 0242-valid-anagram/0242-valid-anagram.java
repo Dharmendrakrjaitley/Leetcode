@@ -7,16 +7,11 @@ class Solution {
             return false;
         char[] s1=s.toCharArray();
         Arrays.sort(s1);
-        s=new String(s1);
         char[] t1=t.toCharArray();
         Arrays.sort(t1);
-        t=new String(t1);
         
         for(int i=0;i<l1;i++)
         {
-            // if(s.charAt(i)!=t.charAt(i))
-            //     return false;
-            
             if(s1[i]!=t1[i])
                 return false;
         }
