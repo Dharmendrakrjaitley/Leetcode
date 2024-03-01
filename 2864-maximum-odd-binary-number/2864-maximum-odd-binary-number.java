@@ -8,6 +8,7 @@ class Solution {
         {
             if(charA[i]=='1') count++;
         }
+        //create a stringBuilder to create result string
         StringBuilder result=new StringBuilder();
         // Append all the 1's to the start of the string except 1
         for(int i=0;i<count-1;i++)
