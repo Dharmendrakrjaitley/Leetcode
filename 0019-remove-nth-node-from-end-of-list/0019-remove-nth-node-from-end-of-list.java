@@ -10,7 +10,7 @@
  */
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        
+        //first approach
 //        //created dummy node to handle edge case
 //         ListNode dummy=new ListNode(0);
 //         dummy.next=head;
@@ -31,6 +31,7 @@ class Solution {
         
 //         return dummy.next;
         
+        // 2nd approach
         
         ListNode temp=head;
         //count the number of node
