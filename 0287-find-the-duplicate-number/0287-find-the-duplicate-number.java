@@ -51,7 +51,7 @@ class Solution {
                 return nums[i];
             else
             {
-                arr[nums[i]]++;
+                arr[nums[i]]=1;
             }
         }
         return 1;
